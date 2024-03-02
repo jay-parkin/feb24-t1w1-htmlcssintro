@@ -1,0 +1,25 @@
+h3 {
+  color: red;
+}
+
+h1 {
+  color: aqua;
+  background-color: black;
+}
+
+.heading1 {
+  color: blueviolet;
+}
+
+li {
+  background-color: tan;
+}
+
+/* selects every seconds list item */
+li:nth-child(even) {
+  background-color: white;
+}
+
+li:nth-child(even)::marker {
+  color: crimson;
+}
