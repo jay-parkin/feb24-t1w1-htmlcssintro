@@ -1,3 +1,7 @@
+p {
+  font-size: large;
+}
+
 h3 {
   color: red;
 }
@@ -22,4 +26,8 @@ li:nth-child(even) {
 
 li:nth-child(even)::marker {
   color: crimson;
+}
+
+img {
+  width: 100vw;
 }
